@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-const API_URL = "https://emp-mgmt-divya.netlify.app";
+const API_URL = "https://employee-management-system-backend-ldjd.onrender.com";
 
 const initialEmployee = {
   id: "",

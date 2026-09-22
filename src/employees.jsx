@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API_URL = "https://emp-mgmt-divya.netlify.app/";
+const API_URL = "https://employee-management-system-backend-ldjd.onrender.com";
 
 function Employees() {
   const [employees, setEmployees] = useState([]);

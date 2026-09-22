@@ -12,7 +12,7 @@ function Delete() {
     try {
 
       const response = await fetch(
-        `https://emp-mgmt-divya.netlify.apps/${id}`,
+        `https://employee-management-system-backend-ldjd.onrender.com/${id}`,
         {
           method: "DELETE"
         }
