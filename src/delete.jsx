@@ -12,7 +12,7 @@ function Delete() {
     try {
 
       const response = await fetch(
-        `https://employee-management-system-backend-ldjd.onrender.com/${id}`,
+        `https://employee-management-system-backend-ldjd.onrender.com/delete/${id}`,
         {
           method: "DELETE"
         }
